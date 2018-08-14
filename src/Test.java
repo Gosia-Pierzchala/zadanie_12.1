@@ -10,7 +10,7 @@ public class Test {
 
         Random random = new Random();
 
-        for (int i = 0; i < 50; i++) {
+        while(set.size() != 50){
             int liczba = random.nextInt(1000);
             set.add(liczba);
         }
